@@ -6,6 +6,7 @@ import BlurImage from "@/components/blur-image";
 import MDX from "@/components/mdx";
 import { placeholderBlurhash, toDateString } from "@/lib/utils";
 
+export const dynamic = 'force-dynamic';
 export async function generateMetadata({
   params,
 }: {
